@@ -7,8 +7,11 @@ public class AOperators : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int a = 111 * 222;
-        Debug.Log($"a : {a}");
+        string result = "123" + "456";
+        Debug.Log(result);
+
+        result = "Hello" + " " + "World";
+        Debug.Log(result);
 
    
     }
