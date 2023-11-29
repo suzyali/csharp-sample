@@ -8,6 +8,8 @@ public class StringFormatBasic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
+
         string fmt = "{0, -20}, {1,-15}, {2,30}";
 
         string.Format(fmt, "Publisher", "Author", "Title");
@@ -34,6 +36,7 @@ public class StringFormatBasic : MonoBehaviour
         Debug.Log(dt.ToString(ciEn));
 
 
+        */
 
 
     }

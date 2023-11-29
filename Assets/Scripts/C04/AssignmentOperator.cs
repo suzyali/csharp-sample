@@ -14,19 +14,23 @@ public class AssignmentOperator : MonoBehaviour
         a += 90;
         Debug.Log($"a += 90 : {a} ");
         a -= 80;
-        Debug.Log($"a -= 100 : {a} ");
+        Debug.Log($"a -= 80 : {a} ");
         a *= 70;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a *= 70 : {a} ");
         a /= 60;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a /= 60 : {a} ");
         a %= 50;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a %= 50 : {a} ");
         a %= 40;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a %= 40 : {a} ");
         a |= 30;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a |= 30 : {a} ");
         a ^= 20;
-        Debug.Log($"a = 100 : {a} ");
+        Debug.Log($"a ^= 20 : {a} ");
+        a <<= 20;
+        Debug.Log($"a <<= 20 : {a} ");
+        a >>= 2;
+        Debug.Log($"a >>= 2 : {a} ");
     }
 
 
